@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { ReservationsDisplay } from '../Components/ResCard/ResCard';
+import { ReservationsDisplay } from '../Components/ReservationsDisplay/ReservationsDisplay';
 
 
 
@@ -31,7 +31,7 @@ class App extends Component {
 
         </div>
         <div className='resy-container'>
-          <ReservationsDisplay reservations={reservations} />
+          <ReservationsDisplay reservations={this.state.reservations} />
         </div>
       </div>
     )

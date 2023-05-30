@@ -2,9 +2,9 @@ import React from "react";
 import "./ResCard.css";
 
 
-export const ReservationsDisplay = ({name, date, time, number}) => {
+export const ResCard = ({ id, name, date, time, number}) => {
   return (
-    <div>
+    <div id={id}>
       <h3>{name}</h3>
       <p>{date}</p>
       <p>{time}</p>
