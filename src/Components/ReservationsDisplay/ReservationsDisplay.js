@@ -11,4 +11,9 @@ export const ReservationsDisplay = ({reservations}) => {
       number={reservation.number}
       />
   })
+  return (
+    <div>
+      {resCards}
+    </div>
+  )
 }
