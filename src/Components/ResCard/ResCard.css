@@ -2,5 +2,15 @@
   background-color: white;
   color: #008080;
   border: #008080 solid 3px;
-  border-radius: 3px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #008080;
+  color: white;
+  box-shadow: none;
+  border: 0;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  padding: 4px 15px;
 }
