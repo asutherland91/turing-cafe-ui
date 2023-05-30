@@ -4,7 +4,7 @@ import "./ResCard.css";
 
 export const ResCard = ({ id, name, date, time, number}) => {
   return (
-    <div id={id}>
+    <div className="cards" id={id}>
       <h3>{name}</h3>
       <p>{date}</p>
       <p>{time}</p>

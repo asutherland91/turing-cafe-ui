@@ -16,7 +16,7 @@ export const ReservationsDisplay = ({reservations}) => {
   });
 
   return (
-    <div>
+    <div className="card-wrapper">
       {resCards}
     </div>
   )
